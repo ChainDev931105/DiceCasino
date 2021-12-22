@@ -1,0 +1,249 @@
+{
+  "contractName": "IWolframOracle",
+  "abi": [
+    {
+      "inputs": [],
+      "name": "rollDice",
+      "outputs": [
+        {
+          "internalType": "uint256",
+          "name": "",
+          "type": "uint256"
+        }
+      ],
+      "stateMutability": "nonpayable",
+      "type": "function"
+    }
+  ],
+  "metadata": "{\"compiler\":{\"version\":\"0.8.7+commit.e28d00a7\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"inputs\":[],\"name\":\"rollDice\",\"outputs\":[{\"internalType\":\"uint256\",\"name\":\"\",\"type\":\"uint256\"}],\"stateMutability\":\"nonpayable\",\"type\":\"function\"}],\"devdoc\":{\"kind\":\"dev\",\"methods\":{},\"version\":1},\"userdoc\":{\"kind\":\"user\",\"methods\":{},\"version\":1}},\"settings\":{\"compilationTarget\":{\"project:/contracts/interface/IWolframOracle.sol\":\"IWolframOracle\"},\"evmVersion\":\"london\",\"libraries\":{},\"metadata\":{\"bytecodeHash\":\"ipfs\"},\"optimizer\":{\"enabled\":true,\"runs\":200},\"remappings\":[]},\"sources\":{\"project:/contracts/interface/IWolframOracle.sol\":{\"keccak256\":\"0x64b579ceedbc6918117caf4ce4b013b8e88eeb9ac27ad795aff96a1a65e80bae\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://91c2b64731eede10dfa961e5f7530a9c65336210b4654c1bcb212fd2998d9d65\",\"dweb:/ipfs/QmXdVZGS9XFWrMpaaPRRBNNfep7qNLbHikBRaFpGzG9Kk5\"]}},\"version\":1}",
+  "bytecode": "0x",
+  "deployedBytecode": "0x",
+  "immutableReferences": {},
+  "generatedSources": [],
+  "deployedGeneratedSources": [],
+  "sourceMap": "",
+  "deployedSourceMap": "",
+  "source": "// SPDX-License-Identifier: MIT\r\npragma solidity >=0.4.22 <0.9.0;\r\n\r\ninterface IWolframOracle {\r\n  function rollDice() external returns(uint256);\r\n}\r\n",
+  "sourcePath": "E:\\Blockchain\\20211221_Gamerse\\DiceCasino\\contracts\\interface\\IWolframOracle.sol",
+  "ast": {
+    "absolutePath": "project:/contracts/interface/IWolframOracle.sol",
+    "exportedSymbols": {
+      "IWolframOracle": [
+        767
+      ]
+    },
+    "id": 768,
+    "license": "MIT",
+    "nodeType": "SourceUnit",
+    "nodes": [
+      {
+        "id": 761,
+        "literals": [
+          "solidity",
+          ">=",
+          "0.4",
+          ".22",
+          "<",
+          "0.9",
+          ".0"
+        ],
+        "nodeType": "PragmaDirective",
+        "src": "33:32:6"
+      },
+      {
+        "abstract": false,
+        "baseContracts": [],
+        "contractDependencies": [],
+        "contractKind": "interface",
+        "fullyImplemented": false,
+        "id": 767,
+        "linearizedBaseContracts": [
+          767
+        ],
+        "name": "IWolframOracle",
+        "nameLocation": "79:14:6",
+        "nodeType": "ContractDefinition",
+        "nodes": [
+          {
+            "functionSelector": "837e7cc6",
+            "id": 766,
+            "implemented": false,
+            "kind": "function",
+            "modifiers": [],
+            "name": "rollDice",
+            "nameLocation": "108:8:6",
+            "nodeType": "FunctionDefinition",
+            "parameters": {
+              "id": 762,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "116:2:6"
+            },
+            "returnParameters": {
+              "id": 765,
+              "nodeType": "ParameterList",
+              "parameters": [
+                {
+                  "constant": false,
+                  "id": 764,
+                  "mutability": "mutable",
+                  "name": "",
+                  "nameLocation": "-1:-1:-1",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 766,
+                  "src": "136:7:6",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_uint256",
+                    "typeString": "uint256"
+                  },
+                  "typeName": {
+                    "id": 763,
+                    "name": "uint256",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "136:7:6",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_uint256",
+                      "typeString": "uint256"
+                    }
+                  },
+                  "visibility": "internal"
+                }
+              ],
+              "src": "135:9:6"
+            },
+            "scope": 767,
+            "src": "99:46:6",
+            "stateMutability": "nonpayable",
+            "virtual": false,
+            "visibility": "external"
+          }
+        ],
+        "scope": 768,
+        "src": "69:79:6",
+        "usedErrors": []
+      }
+    ],
+    "src": "33:117:6"
+  },
+  "legacyAST": {
+    "absolutePath": "project:/contracts/interface/IWolframOracle.sol",
+    "exportedSymbols": {
+      "IWolframOracle": [
+        767
+      ]
+    },
+    "id": 768,
+    "license": "MIT",
+    "nodeType": "SourceUnit",
+    "nodes": [
+      {
+        "id": 761,
+        "literals": [
+          "solidity",
+          ">=",
+          "0.4",
+          ".22",
+          "<",
+          "0.9",
+          ".0"
+        ],
+        "nodeType": "PragmaDirective",
+        "src": "33:32:6"
+      },
+      {
+        "abstract": false,
+        "baseContracts": [],
+        "contractDependencies": [],
+        "contractKind": "interface",
+        "fullyImplemented": false,
+        "id": 767,
+        "linearizedBaseContracts": [
+          767
+        ],
+        "name": "IWolframOracle",
+        "nameLocation": "79:14:6",
+        "nodeType": "ContractDefinition",
+        "nodes": [
+          {
+            "functionSelector": "837e7cc6",
+            "id": 766,
+            "implemented": false,
+            "kind": "function",
+            "modifiers": [],
+            "name": "rollDice",
+            "nameLocation": "108:8:6",
+            "nodeType": "FunctionDefinition",
+            "parameters": {
+              "id": 762,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "116:2:6"
+            },
+            "returnParameters": {
+              "id": 765,
+              "nodeType": "ParameterList",
+              "parameters": [
+                {
+                  "constant": false,
+                  "id": 764,
+                  "mutability": "mutable",
+                  "name": "",
+                  "nameLocation": "-1:-1:-1",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 766,
+                  "src": "136:7:6",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_uint256",
+                    "typeString": "uint256"
+                  },
+                  "typeName": {
+                    "id": 763,
+                    "name": "uint256",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "136:7:6",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_uint256",
+                      "typeString": "uint256"
+                    }
+                  },
+                  "visibility": "internal"
+                }
+              ],
+              "src": "135:9:6"
+            },
+            "scope": 767,
+            "src": "99:46:6",
+            "stateMutability": "nonpayable",
+            "virtual": false,
+            "visibility": "external"
+          }
+        ],
+        "scope": 768,
+        "src": "69:79:6",
+        "usedErrors": []
+      }
+    ],
+    "src": "33:117:6"
+  },
+  "compiler": {
+    "name": "solc",
+    "version": "0.8.7+commit.e28d00a7.Emscripten.clang"
+  },
+  "networks": {},
+  "schemaVersion": "3.4.3",
+  "updatedAt": "2021-12-22T21:15:32.458Z",
+  "devdoc": {
+    "kind": "dev",
+    "methods": {},
+    "version": 1
+  },
+  "userdoc": {
+    "kind": "user",
+    "methods": {},
+    "version": 1
+  }
+}
